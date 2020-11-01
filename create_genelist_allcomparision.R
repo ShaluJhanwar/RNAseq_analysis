@@ -1,7 +1,7 @@
 #! /usr/bin/env Rscript
 #When: 2018-07-09
 #Who: Shalu Jhanwar
-#What: Append geneNames to geneId of Differentially expressed genes
+#What: Append geneNames to geneId of differentially expressed genes
 
 #################
 #Inputs and set paths

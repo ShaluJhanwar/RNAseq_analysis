@@ -10,8 +10,8 @@
 #################
 rm(list=ls())
 args = commandArgs(trailingOnly=TRUE)
-inputDir=args[1] #/scicore/home/zellerro/jhanwar/ERC/RNA/Chicken only three stages
-scRNAgeneList=args[2] #/scicore/home/zellerro/GROUP/Resources/galGal5/RNASeq/smallRNA_geneId_ensembleToUCSC_Galgal_5_0_91.gtf
+inputDir=args[1] 
+scRNAgeneList=args[2] #smallRNA_geneId
 scRNA=read.csv(scRNAgeneList, header=F)
 setwd(inputDir)
 
